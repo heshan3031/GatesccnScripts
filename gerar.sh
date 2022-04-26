@@ -1,1 +1,524 @@
-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
+#!/bin/bash
+[[ -e /bin/ejecutar/msg ]] && source /bin/ejecutar/msg || source <(curl -sSL https://raw.githubusercontent.com/Gatesccn/GatesccnScripts/main/msg-bar/msg)
+bar="$(msg -bar3)"
+[[ -e /etc/systemd/system/btkill.service ]] && systemctl restart btkill.service &>/dev/null
+tr=${id}
+ofus () {
+unset txtofus
+number=$(expr length $1)
+for((i=1; i<$number+1; i++)); do
+txt[$i]=$(echo "$1" | cut -b $i)
+case ${txt[$i]} in
+".")txt[$i]="x";;
+"x")txt[$i]=".";;
+"1")txt[$i]="@";;
+"@")txt[$i]="1";;
+"2")txt[$i]="?";;
+"?")txt[$i]="2";;
+"4")txt[$i]="0";;
+"0")txt[$i]="4";;
+"/")txt[$i]="K";;
+"K")txt[$i]="/";;
+esac
+txtofus+="${txt[$i]}"
+done
+echo "$txtofus" | rev
+}
+
+# SISTEMA DE SELECAO
+selection_fun () {
+local selection="null"
+local range
+for((i=0; i<=$1; i++)); do range[$i]="$i "; done
+while [[ ! $(echo ${range[*]}|grep -w "$selection") ]]; do
+echo -ne "\033[1;37mOpcion: " >&2
+read selection
+tput cuu1 >&2 && tput dl1 >&2
+done
+echo $selection
+}
+
+check_ip () {
+MIP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
+MIP2=$(wget -qO- ipv4.icanhazip.com)
+[[ "$MIP" != "$MIP2" ]] && IP="$MIP2" || IP="$MIP"
+echo "$IP" > /usr/bin/vendor_code
+}
+function_verify () {
+unset keybot
+echo -e "\033[7;49;35m    =====>>►► 🐲 🔥GENERADOR BOLSCRIPTS🔥VPS 🐲🔥 ◄◄<<=====      \033[0m"
+msg -bar
+# [[ "$(echo "$(cat < /etc/nivbot)")" -ge "2" ]] && {
+# [[ -e /bin/downloadbot ]] && {
+# [[ -z $(cat < /bin/downloadbot) ]] && read -p " Ingresa tu Key de Autorizacion : " keybot || unset keybot
+# } || read -p " Key de Autorizacion : " keybot 
+# } || read -p " Key de Autorizacion : " keybot 
+# [[ -z $keybot ]] && {
+# [[ -e /bin/downloadbot ]] && link="$(cat < /bin/downloadbot)" || link='https://raw.githubusercontent.com'
+# permited=$(curl -sSL "${link}/Gatesccn/VPSbot/main/Control-IP") 
+# } || {
+# permited=$(curl -sSL "$(ofus $keybot)/Gatesccn/VPSbot/main/Control-IP")
+# }
+permited=$(curl -sSL "https://raw.githubusercontent.com/Gatesccn/VPSbot/main/Control-IP") 
+  [[ $(echo $permited|grep "${IP}") = "" ]] && {
+  clear
+  echo -e "\n\n\n\e[31m====================================================="
+  echo -e "\e[31m      ¡LA IP $(wget -qO- ipv4.icanhazip.com) FUE RECHAZADA!"
+  echo -e "     $link No AUTORIZADA el ACCESO "
+  echo -e " SI DESEAS USAR EL BOTGEN CONTACTE A @GATESCCN"
+  echo -e "\e[31m=====================================================\n\n\n\e[0m"
+  [[ -e "/bin/ShellBot.sh" ]] && rm /bin/ShellBot.sh
+    exit 1
+  } || {
+ ### INTALAR VERCION DE SCRIPT
+  clear
+  echo -e "\n\n\n\e[32m====================================================="
+  echo -e "\e[32m      ¡LA IP $(wget -qO- ipv4.icanhazip.com) ESTA AUTORIZADA!"
+  echo -e "      Mediante  $link Autorida por @GATESCCN"
+  echo -e "      SI DESEAS USAR EL BOTGEN CONTACTE A @GATESCCN"
+  echo -e "\e[32m=====================================================\n\n\n\e[0m"
+  CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
+  [[ -e /etc/nivbot ]] && { 
+  i=$(cat < /etc/nivbot)
+  lv=$(($i+1))
+  echo $lv > /etc/nivbot
+  } || echo "1" > /etc/nivbot
+  v1=$(curl -sSL "https://www.dropbox.com/s/zwnn4y0di4s28o1/v-new.log")
+  echo "$v1" > /etc/ADM-db/vercion  
+  }
+}
+
+edit_cost () {
+msg -bar
+echo -e "\033[1;37mRECUERDA EDITAR LOS COSTOS O TIEMPOS\n Para Salir Ctrl + C o 0 Para Regresar\033[1;33m"
+echo -e " \033[1;31m[ !!! ]\033[1;33m RECUERDA, UNA VEZ EDITADO NO PODRAS VOLVER A \n TENER EL ORIGINAL, A MENOS QUE REINSTALES   \033[1;31m\033[1;33m"
+msg -bar 
+echo -e " \033[1;31mLuego de editar Presiona Ctrl + O y Enter \033[1;33m \033[1;31m\033[1;33m"
+echo -e " \033[1;31m          Por Ultimo Ctrl + X  \033[1;33m \033[1;31m\033[1;33m"
+echo -ne "\033[1;37m"
+read -p " Presiona Enter para Continuar "
+nano /etc/ADM-db/sources/costes
+systemctl restart BotGen-server &>/dev/null
+echo -e " MODIFICADO EXITOSAMENTE"
+bot_gen
+}
+
+change_pay () {
+unset option
+clear
+echo -e "$bar"
+echo -e "  MENSAJE ACTUAL $(cat < /etc/mpayu)"
+echo -e "$bar"
+echo -e "  \033[1;37mINGRESA TU METODO DE PAGO Y/O CORREO"
+echo -e "$bar\n"
+echo -e "Ingresa en este Orden o Secuencia \n PAYPAL : jjmoron007@gmail.com \n"
+echo -e "$bar"
+read -p "TEXTO: " opcion
+[[ -z $opcion ]] && bot_gen && exit || echo "$opcion" > /etc/mpayu && echo "TOKEN APLICADO EXITOSAMENTE"
+read -p " Enter para Continuar"
+echo -e "$bar"
+echo -e "  \033[1;37m NUMERO DE CONTACTO ACTUAL $(cat < /etc/numctc) "
+echo -e "$bar\n"
+echo -e " Ingresa en este Orden o FORMATO \n   59162069439  \n"
+echo -e "$bar"
+read -p "TEXTO: " opcion1
+echo -e "$bar\n"
+echo -e " AGREGA UN MENSAJE DE LLEGADA / OPCIONAL \n   Hola!, $(cat < ${CIDdir}/resell) Me interesa Conocer más sobre el Scripts  \n"
+echo -e "$bar"
+read -p "TEXTO: " nmsg
+[[ -z $nmsg ]] && echo "text=Hola!, $(cat < ${CIDdir}/resell) Me interesa Conocer más sobre el scripts." > /etc/numsg || echo "text=$nmsg" > /etc/numsg
+[[ -z $opcion ]] && bot_gen && exit || echo $opcion1 > /etc/numctc && echo "TOKEN APLICADO EXITOSAMENTE"
+read -p " Enter para Continuar"
+bot_gen
+}
+
+lim-bot () {
+unset option
+clear
+echo -e "$bar"
+echo -e "  \033[1;37mIngrese el Limite del Bot"
+echo -e "$bar"
+echo -n "Limite: "
+read opcion
+echo "$opcion" > ${CIDdir}/limit
+echo "$opcion" > /etc/limit
+unset PIDGEN
+PIDGEN=$(ps aux|grep -v grep|grep "kill_drop.sh")
+if [[ ! $PIDGEN ]]; then
+	msg -bar
+	echo -ne "\033[1;97m Poner en linea KILL ID [s/n]: "
+	read bot_ini
+	msg -bar
+[[ $bot_ini = @(s|S|y|Y) ]] && {
+
+	echo -e "[Unit]
+Description=BotGen Service by @gatesccn
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStart=/bin/bash /etc/ADM-db/sources/kill_drop.sh 
+Restart=always
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/btkill.service
+	systemctl enable btkill &>/dev/null
+	systemctl start btkill &>/dev/null
+	msg -bar
+	echo -e "\033[1;31m            Bot ID KILL ACTIVADO"
+	msg -bar
+	}
+else
+killall kill_drop.sh &>/dev/null
+systemctl stop btkill &>/dev/null
+systemctl disable btkill &>/dev/null
+rm /etc/systemd/system/btkill.service &>/dev/null
+clear
+msg -bar
+echo -e "\033[1;31m            Bot ID KILL fuera de linea"
+msg -bar
+fi
+read -p "Presione Enter para continuar "
+bot_gen
+
+
+#echo "sed -i "s/1001282138571/0/g" /etc/gerar-sh-log
+#echo '#!/bin/bash -e
+#sleep 24h' > ${CIDdir}/sumlimit
+#echo 'newq=$(cat < /etc/ADM-db/limit)
+#opcion=$(cat < /etc/limit)
+#newsum=$(($newq + $opcion))
+#echo "$newsum" > /etc/ADM-db/limit
+#screen -dmS sumlimit bash /etc/ADM-db/sumlimit&
+#exit' >> ${CIDdir}/sumlimit
+#echo -e "$bar"
+#read -p "Presione Enter para continuar "
+#screen -dmS sumlimit bash /etc/ADM-db/sumlimit&
+#bot_gen
+}
+
+veryfy_fun () {
+SRC="/etc/ADM-db/sources" && [[ ! -d ${SRC} ]] && mkdir ${SRC}
+unset ARQ
+case $1 in
+"BotGen.sh")ARQ="/etc/ADM-db/";;
+*)ARQ="/etc/ADM-db/sources/";;
+esac
+mv -f $HOME/update/$1 ${ARQ}/$1 && echo -e "\033[1;31m- \033[1;32mRecibido!" || echo -e "\033[1;31m- \033[1;31mFalla (no recibido!)"
+chmod +x ${ARQ}/$1
+}
+
+download () {
+clear
+msg -bar
+echo -e "\033[1;33mDescargando archivos... ESPERE "
+msg -bar
+cd $HOME
+wget -O $HOME/lista-arq https://www.dropbox.com/s/1u8xpo1r8q7ohsq/lista%20editada -o /dev/null
+echo 999 > ${CIDdir}/limit
+n=1
+[[ -d $HOME/update ]] && rm -rf $HOME/update/* || mkdir $HOME/update
+cd $HOME/update && wget -i $HOME/lista-arq -o /dev/null
+for arqx in `ls $HOME/update`; do
+echo -ne "\033[1;33mFichero \033[1;31m[${n}.bot] "
+[[ -e $HOME/update/$arqx ]] && veryfy_fun $arqx
+n=$(($n + 1))
+done
+cd $HOME && rm -rf $HOME/update
+ #}
+echo -ne "\033[1;31m[ ! ] RESTAUDANDO ADMINISTRADOR "
+(
+[[ -e $HOME/costes ]] && mv $HOME/costes /etc/ADM-db/sources/costes 
+[[ -e $HOME/token ]] && mv $HOME/token /etc/ADM-db/token 
+[[ -e $HOME/resell ]] && mv $HOME/resell /etc/ADM-db/resell
+[[ -e $HOME/Admin-ID ]] && mv $HOME/Admin-ID /etc/ADM-db/Admin-ID 
+[[ -e $HOME/User-ID ]] && mv $HOME/User-ID /etc/ADM-db/User-ID 
+[[ -e $HOME/ress ]] && mv $HOME/ress /etc/ADM-db/ress
+[[ -e $HOME/limit ]] && mv $HOME/limit /etc/ADM-db/limit
+[[ -e $HOME/num-key.cont ]] && mv $HOME/num-key.cont /etc/ADM-db/num-key.cont
+) && echo -e "\033[1;32m [OK]" || echo -e "\033[1;31m [FAIL]"
+[[ ! -e ${CIDdir}/resell ]] && echo "@gatesccn" > ${CIDdir}/resell
+[[ ! -e $(cat < /etc/mpayu) ]] && echo "Paypal : jjmoron007@gmail.com" > /etc/mpayu && echo "59162069439" > /etc/numctc
+ rm $HOME/lista-arq
+ systemctl restart BotGen-server &>/dev/null
+ bot_gen
+}
+
+ini_token () {
+clear
+echo -e "$bar"
+echo -e "  \033[1;37mIngrese el token de su bot"
+echo -e "$bar"
+echo -n "TOKEN: "
+read opcion
+echo "$opcion" > ${CIDdir}/token
+echo -e "$bar"
+echo -e "  \033[1;32mtoken se guardo con exito!" && echo -e "$bar" && echo -e "  \033[1;37mPara tener acceso a todos los comandos del bot\n  deve iniciar el bot en la opcion 2.\n  desde su apps (telegram). ingresar al bot!\n  digite el comando \033[1;31m/id\n  \033[1;37mel bot le respodera con su ID de telegram.\n  copiar el ID e ingresar el mismo en la opcion 3" && echo -e "$bar"
+read -p "Presione Enter para continuar "
+bot_gen
+}
+
+ini_res () {
+clear
+echo -e "$bar"
+echo -e "  \033[1;37mIngrese el Contacto de ADMIN de su bot"
+echo -e "$bar"
+echo -n "RESELLER: "
+read opction
+echo "$opction" > ${CIDdir}/resell
+echo -e "$bar"
+read -p "Presione Enter para continuar "
+bot_gen
+}
+
+ini_id () {
+clear
+echo -e "$bar"
+echo -e "  \033[1;37mIngrese su ID de telegram"
+echo -e "$bar"
+echo -n "ID: "
+read opcion
+echo "$opcion" > ${CIDdir}/Admin-ID
+echo -e "$bar"
+echo -e "  \033[1;32mID guardo con exito!" && echo -e "$bar" && echo -e "  \033[1;37mdesde su apps (telegram). ingresar al bot!\n  digite el comando \033[1;31m/menu\n  \033[1;37mprueve si tiene acceso al menu extendido." && echo -e "$bar"
+read -p "Presione Enter para continuar "
+bot_gen
+}
+
+start_bot () {
+[[ ! -e "${CIDdir}/token" ]] && echo "null" > ${CIDdir}/token
+unset PIDGEN
+PIDGEN=$(ps aux|grep -v grep|grep "BotGen.sh")
+if [[ ! $PIDGEN ]]; then
+echo -e "[Unit]
+Description=BotGen Service by @gatesccn
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStart=/bin/bash ${CIDdir}/BotGen.sh -start
+Restart=always
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/BotGen-server.service
+
+		systemctl enable BotGen-server &>/dev/null
+    	systemctl start BotGen-server &>/dev/null
+else
+killall BotGen.sh &>/dev/null
+systemctl stop BotGen-server &>/dev/null
+systemctl disable BotGen-server &>/dev/null
+rm /etc/systemd/system/BotGen-server.service &>/dev/null
+clear
+msg -bar
+echo -e "\033[1;31m            BotGen fuera de linea"
+msg -bar
+read -p "Presione Enter para continuar "
+fi
+bot_gen
+}
+
+ayuda_fun () {
+clear
+echo -e "$bar"
+echo -e "            \e[47m\e[30m Instrucciones rapidas \e[0m"
+echo -e "$bar"
+echo -e "\033[1;37m   Es necesario crear un bot en \033[1;32m@BotFather "
+echo -e "$bar"
+echo -e "\033[1;32m1- \033[1;37mEn su apps telegram ingrese a @BotFather"
+echo -e "\033[1;32m2- \033[1;37mDigite el comando \033[1;31m/newbot"
+echo -e "\033[1;32m3- @BotFather \033[1;37msolicitara que\n   asigne un nombre a su bot"
+echo -e "\033[1;32m4- @BotFather \033[1;37msolici \033[1;31m/token\n   \033[1;37mseleccione el bot y copie el token."
+echo -e "\033[1;32m6- \033[1;37mIngrese el token\n   en latara que asigne otro nombre,\n   esta vez deve finalizar en bot eje: \033[1;31mXXX_bot"
+echo -e "\033[1;32m5- \033[1;37mObtener token del bot creado.\n   En \033[1;32m@BotFather \033[1;37mdigite el comando opcion \033[1;32m[1] \033[1;31m> \033[1;37mTOKEN DEL BOT"
+echo -e "\033[1;32m7- \033[1;37mPoner en linea el bot\n   en la opcion \033[1;32m[2] \033[1;31m> \033[1;37mINICIAR/PARAR BOT"
+echo -e "\033[1;32m8- \033[1;37mEn su apps telegram, inicie el bot creado\n   digite el comando \033[1;31m/id \033[1;37mel bot le respondera\n   con su ID de telegran (copie el ID)"
+echo -e "\033[1;32m9- \033[1;37mIngrese el ID en la\n   opcion \033[1;32m[3] \033[1;31m> \033[1;37mID DE USUARIO TELEGRAM"
+echo -e "\033[1;32m10-\033[1;37mcomprueve que tiene acceso a\n   las opciones avanzadas de su bot."
+echo -e "$bar"
+read -p "Presione Enter para continuar "
+bot_gen
+}
+
+bot_conf () {
+[[ -e /etc/ADM-db/token ]] && mv /etc/ADM-db/token /root/token
+[[ -e /etc/ADM-db/Admin-ID ]] && mv /etc/ADM-db/Admin-ID /root/Admin-ID
+check_ip
+function_verify
+instaled=/etc/ADM-db/sources && [[ ! -d ${instaled} ]] && download
+}
+
+msj_prueba () {
+
+TOKEN="$(cat /etc/ADM-db/token)"
+ID="$(cat /etc/ADM-db/Admin-ID)"
+
+[[ -z $TOKEN ]] && {
+	clear
+	echo -e "$bar"
+	echo -e "\033[1;37m Aun no a ingresado el token\n No se puede enviar ningun mensaje!"
+	echo -e "$bar"
+	read foo
+} || {
+	[[ -z $ID ]] && {
+		clear
+		echo -e "$bar"
+		echo -e "\033[1;37m Aun no a ingresado el ID\n No se puede enviar ningun mensaje!"
+		echo -e "$bar"
+		read foo
+	} || {
+		MENSAJE="Este es un Mensaje de Prueba del BotGen Generador!"
+		URL="https://api.telegram.org/bot$TOKEN/sendMessage"
+		curl -s -X POST $URL -d chat_id=$ID -d text="$MENSAJE" &>/dev/null
+		clear
+		echo -e "$bar"
+		echo -e "\033[1;37m Mensaje enviado Exitosamente...!"
+		echo -e "$bar"
+		sleep 0.5s
+	}
+}
+
+bot_gen
+}
+
+msj_ind () {
+
+TOKEN="$(cat /etc/ADM-db/token)"
+echo -e "$bar"
+echo -e "  \033[1;37mIngrese su ID de telegram a Mensajear"
+echo -e "$bar"
+read -p "ID: " ID 
+[[ -z $ID ]] && ID="$(cat /etc/ADM-db/Admin-ID)"
+[[ -z $TOKEN ]] && {
+	clear
+	echo -e "$bar"
+	echo -e "\033[1;37m Aun no a ingresado el token\n No se puede enviar ningun mensaje!"
+	echo -e "$bar"
+	read foo
+} || {
+	[[ -z $ID ]] && {
+		clear
+		echo -e "$bar"
+		echo -e "\033[1;37m Aun no a ingresado el ID\n No se puede enviar ningun mensaje!"
+		echo -e "$bar"
+		read foo
+	} || {
+		MENSAJE="Este es un Mensaje de Prueba del BotGen Generador!"
+echo -e "$bar"
+echo -e "  \033[1;37mINGRESA EL MENSAJE A ENVIAR"
+echo -e "$bar"
+read -p "TEXTO: " MENSAJE 
+echo -e "$bar"
+echo -e "  \033[1;37mPEGA RUTA DE IMAGEN"
+echo -e "$bar"
+read -p "IMG: " img 
+#[[ -z $img ]] && img="https://github.com/Gatesccn/GatesccnScripts/blob/main/photo_2022-03-08_00-10-05.jpg?raw=true"
+[[ -z $img ]] && img="/var/www/html/bot_vmess_qr.png"
+[[ -z $MENSAJE ]] && MENSAJE="Hola, Mensale de Prueba del BotGen Generador!"
+		URL="https://api.telegram.org/bot$TOKEN/sendMessage"
+		URG="https://api.telegram.org/bot$TOKEN/sendPhoto"
+		curl -s -X POST $URG -F chat_id=$ID -F photo="@$img" #-F caption="<code>New Script @gatesccn</code>" #-F width="100" -F height="100"
+		curl -s -X POST $URL -d chat_id=$ID -d text="$MENSAJE" &>/dev/null
+#		clear
+		echo -e "@$img"
+		echo -e "$bar"
+		echo -e "\033[1;37m Mensaje enviado Exitosamente...!"
+		echo -e "$bar"
+		read -p "ENTER PARA Continuar"
+	}
+}
+
+bot_gen
+}
+
+
+
+act-bot () {
+echo "Respaldando TOKEN y ADMINISTRADOR" 
+[[ -e /etc/ADM-db/token ]] && mv /etc/ADM-db/token /root/token
+[[ -e /etc/ADM-db/Admin-ID ]] && mv /etc/ADM-db/Admin-ID /root/Admin-ID
+[[ -e /etc/ADM-db/User-ID ]] && mv /etc/ADM-db/User-ID /root/User-ID
+[[ -e /etc/ADM-db/ress ]] && mv /etc/ADM-db/ress /root/ress
+[[ -e /etc/ADM-db/sources/costes ]] && mv /etc/ADM-db/sources/costes /root/costes
+[[ $(cat < /etc/ADM-db/resell) != "@gatesccn" ]] && mv /etc/ADM-db/resell /root/resell
+rm -rf /etc/ADM-db/sources/gerar_key && download
+}
+
+respon () {
+[[ ! -e /etc/menu_ito ]] && credd=$(cat < /etc/SCRIPT/menu_credito) || credd=$(cat /etc/menu_ito ) 
+[[ -e ${CIDdir}/ress ]] && {
+echo -e "DESACTIVANDO RESELLER $credd FIJO EN BotGEN"
+echo -e "   AHORA SE FIJARA EL NOMBRE DE QUIEN GENERE LA KEY"
+read -p "ENTER PARA VOLVER"
+rm -f ${CIDdir}/ress 
+} || { 
+echo -e "ACTIVANDO RESELLER $credd FIJO EN BotGEN"
+echo -e "AHORA SE FIJARA $credd EN TODAS LAS KEYS "
+read -p "ENTER PARA VOLVER"
+touch ${CIDdir}/ress
+}
+bot_gen
+}
+
+
+bot_gen () {
+clear
+unset PID_GEN
+CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
+PID_GEN=$(ps x|grep -v grep|grep "BotGen.sh")
+PID_on=$(ps x|grep -v grep|grep "modelid")
+[[ ! $PID_on ]] && PID_on="\033[1;31mOFF" || PID_on="\033[1;32mON"
+[[ ! -e /etc/systemd/system/btkill.service ]] && PID_kill="\033[1;31mOFF" || PID_kill="\033[1;32mON"
+[[ ! $PID_GEN ]] && PID_GEN="\033[1;31mOFF" || PID_GEN="\033[1;32mON"
+[[ -e ${CIDdir}/token ]] && tk="\033[1;32mOK" || tk="\033[1;31mNULL"
+[[ -e ${CIDdir}/Admin-ID ]] && adid="\033[1;32mOK" || adid="\033[1;31mNULL"
+[[ -e ${CIDdir}/ress ]] && rfij="\033[1;32mRESELLER FIJO (Bot Personal )" || rfij="\033[1;31mRESELLER ALEATORIO ( Bot Publico )"
+limcont=$(cat /etc/ADM-db/limit) 
+[[ "${limcont}" = "999" ]] && limted=" ∞ " || limted=$(cat /etc/ADM-db/limit)
+msg -bar
+echo -e "  \033[7;49;35m  ==>►► 🐲 🔥GENERADOR BOLSCRIPTS $(cat ${CIDdir}/vercion) 🔥VPS 🐲🔥 ◄◄<===   \033[0m"
+#echo -e "     \e[47m \e[30m>>>>>>  BotGen by \e[1;36mGatesCCN\e[1;32m  $(cat ${CIDdir}/vercion)\e[0m\e[47m \e[30m<<<<<< \e[0m"
+msg -bar
+echo -e "  - LIMITADOR \033[1;32m ( $limted ) \033[1;37m KILL ID VENCIDOS ${PID_kill} "
+msg -bar 
+echo -e "\033[0;35m[\033[0;36m1\033[0;35m] \033[0;35m> \033[1;37m TOKEN DEL BOT $tk "
+echo -e "\033[0;35m[\033[0;36m2\033[0;35m] \033[0;35m> \033[1;37m INICIAR/PARAR BOT $PID_GEN\033[0m"
+echo -e "\033[0;35m[\033[0;36m3\033[0;35m] \033[0;35m> \033[1;37m ID DE USUARIO TELEGRAM  $adid"
+echo -e "\033[0;35m[\033[0;36m4\033[0;35m] \033[0;35m> \033[1;37m Cambiar Contacto -> $(cat < ${CIDdir}/resell)"
+echo -e "\033[0;35m[\033[0;36m5\033[0;35m] \033[0;35m> \033[1;37m MENSAJE DE PRUEBA"
+echo -e "\033[0;35m[\033[0;36m6\033[0;35m] \033[0;36m> \033[1;37m MANUAL De Uso"
+echo -e "\033[0;35m[\033[0;36m7\033[0;35m] \033[0;35m> \033[1;37m Limite de KEYS "
+echo -e "\033[0;35m[\033[0;36m8\033[0;35m] \033[0;35m> \033[1;37m Modificar TIPO DE PAGO"
+echo -e "\033[0;35m[\033[0;36m9\033[0;35m] \033[0;35m> \033[1;37m $rfij"
+echo -e "\033[0;35m[\033[0;36m10\033[0;35m] \033[0;35m> \033[1;37m MSG POR ID"
+echo -e "\033[0;35m[\033[0;36m11\033[0;35m] \033[0;35m> \033[1;37m Modificar COSTES DEL BOT"
+msg -bar
+echo -e "\033[0;35m[\033[0;36m0\033[0;35m] \033[0;34m<\033[0;33m SALIR"
+msg -bar
+selection=$(selection_fun 11)
+case ${selection} in
+0) gerar && exit ;;
+1) ini_token;;
+2) start_bot;;
+3) ini_id;;
+4) ini_res;;
+5) msj_prueba;;
+6) ayuda_fun;;
+#7) source <(curl -sSL https://www.dropbox.com/s/eevjxqpubg7l2ut/bot-permited.sh) ;;
+#8) act-bot ;;
+7) lim-bot ;;
+8) change_pay;;
+9) respon;;
+10)msj_ind;;
+11)edit_cost;;
+*) bot_gen;;
+esac
+}
