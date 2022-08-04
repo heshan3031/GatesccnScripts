@@ -369,9 +369,9 @@ No_token="$(cat /etc/token/BD | wc -l)"
 #MENU DE USUARIOS
 menu () {
   clear
-echo -e "${melon}               == Token Auth == (${amarillo}onlycode${cierre}${melon})
+echo -e "${melon}               == PANEL TOKEN == (${amarillo}By LatamSRC${cierre}${melon})
 ${bar1}
-${morado}TOTAL DE REGISTROS: ${rojo}>${cierre} ${azul}ID: ${blanco}$No_token  ${cierre}
+${verde}TOTAL DE REGISTROS: ${rojo}>${cierre} ${azul}ID: ${blanco}$No_token  ${cierre}
 ${bar3}
 ${azul}[1]${cierre} ${rojo}>${cierre} ${blanco}Agregar ${verdeR}ID${cierre}
 ${azul}[2]${cierre} ${rojo}>${cierre} ${blanco}Eliminar ${rojo}ID${cierre}
