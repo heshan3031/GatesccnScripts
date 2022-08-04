@@ -67,7 +67,10 @@ echo -e "$bar1"
 define (){
 	mkdir_dir
 echo -e "$bar1"
+echo -e "${rojo}                TENCION MUCHO OJO AQUI MI KING "
 echo -e "${rojo}Antes de Instalar Mete Tu Contraseña Configuurada en tu app Ya tu sá' "
+echo -e "${rojo}UNA VEZ PUESTA SOLO PODRAS CAMBIAR HACIENDO REBUILD DEL VPS "
+echo -e "${rojo}LATAM SRC TE DA UN SALUDASO Y PS A VENDER MI KING A HACER MONEY MRD MONEYYY "
 echo -e "$bar2"
 read -p "$(echo -e "${amarillo}[ingrese]: ${cierre}")" pass
 echo -e "$pass" >> $file_pass
