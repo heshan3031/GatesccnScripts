@@ -123,7 +123,7 @@ echo "$IP" > /usr/bin/vendor_code
 }
 
 function_verify () {
-  permited=$(curl -sSL "https://raw.githubusercontent.com/Gatesccn/VPSbot/main/TeleBotGen/Control-Bot")
+  permited=$(curl -sSL "https://raw.githubusercontent.com/heshan3031/VPSbot/main/TeleBotGen/Control-Bot")
   [[ $(echo $permited|grep "${IP}") = "" ]] && {
   echo -e "\n\n\n\033[1;31m====================================================="
   echo -e "\033[1;31m       ¡LA IP $(wget -qO- ipv4.icanhazip.com) NO ESTA AUTORIZADA!"
